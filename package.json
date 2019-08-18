@@ -1,0 +1,30 @@
+{
+  "name": "phaser3-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate project for making Phaser3 games in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack --watch & live-server --port=8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avuidrauxs/phaser3-typescript-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avuidrauxs/phaser3-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Avuidrauxs/phaser3-typescript-boilerplate#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "phaser": "^3.19.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
+}
